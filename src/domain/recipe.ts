@@ -53,8 +53,8 @@ export class Recipe {
 
   toString(): string {
 
-    return `Receta: ${this.name} - categoría: ${this.category} - descripción: ${this.description}`;
+    
 
     return `Receta: ${this.name} - categoría: ${this.category} - tiempo de preparación: ${this.prepTime} minutos descripción: ${this.description}` ;
-  }
+  }     
 }
